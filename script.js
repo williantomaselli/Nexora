@@ -53,5 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (window.innerWidth > larguraMaxMobile) {
     window.location.href = "/pages/working.html";
+  }else{
+    window.location.href = "/index.html";
   }
 });

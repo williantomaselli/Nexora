@@ -1,0 +1,49 @@
+/* FONTS */
+@font-face {
+  font-family: Roboto;
+  src: url(/Font/Roboto/Roboto-VariableFont_wdth\wght.ttf);
+}
+
+@font-face {
+  font-family: MontserratAltLight;
+  src: url(/Font/Montserrat_Alternates/MontserratAlternates-Light.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(/Font/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(/Font/Exo_2/Exo2-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000426;
+    background: radial-gradient( #000426, #000106);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-family: MontserratAltLight;
+    color: white;
+}
+
+p{
+    font-family: Raleway;
+    color: white;
+    font-weight: 100;
+}
+

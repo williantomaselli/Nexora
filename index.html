@@ -25,13 +25,20 @@
     <div id="menu">
       <button id="fechar">X</button>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
     <main>
+
+      <div class="link-point home-link" id="home"></div>
+      <div class="link-point about-link" id="about"></div>
+      <div class="link-point services-link" id="services"></div>
+      <div class="link-point contact-link" id="contact"></div>
+
+
       <section class="objetive" id="home">
         <img src="./Img/bg.jpg" alt="" class="mainbg" />
         <h1>
@@ -47,6 +54,7 @@
         <!-- <img src="./Img/net-bg.png" class="random-images" alt="" /> -->
       </div>
 
+
       <section class="about rellax" data-rellax-speed="5" id="about">
         <span class="titles">About Us</span>
         <p>
@@ -58,6 +66,7 @@
         </p>
       </section>
 
+
       <section class="services rellax" data-rellax-speed="4" id="services">
         <span class="titles">Our Services</span>
         <div class="services-card">
@@ -67,7 +76,7 @@
             Responsive, fast and SEO-friendly websites designed to turn visitors
             into customers. We focus on UX, performance and measurable results.
           </p>
-          <a href="">Get a proposal</a>
+          <a href="https://wa.me/554791145847?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%21" target="_blank">Get a proposal</a>
         </div>
         <div class="services-card">
           <h3>Task Automation</h3>
@@ -76,7 +85,7 @@
             Eliminate repetitive tasks with smart scripts, RPA and API
             integrations to reduce errors, save time and lower costs.
           </p>
-          <a href="">Automate now</a>
+          <a href="https://wa.me/554791145847?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20automatizar%20o%20meu%20sistema%21" target="_blank">Automate now</a>
         </div>
         <div class="services-card">
           <h3>Custom Software</h3>
@@ -86,7 +95,7 @@
             from enterprise systems to SaaS products. We deliver maintainable
             solutions that grow with you.
           </p>
-          <a href="">Request a consultation</a>
+          <a href="https://wa.me/554791145847?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20uma%20consultoria%21" target="_blank">Request a consultation</a>
         </div>
       </section>
 
@@ -94,15 +103,27 @@
         <img src="./Img/notebook.jpg" class="random-images" alt="" />
       </div> -->
 
+
       <section class="contact rellax" data-rellax-speed="3" id="contact">
         <span class="titles">Get in touch</span>
 
-        <input type="text" id="name" placeholder="Your name" required autocomplete="off"/>
+        <input
+          type="text"
+          id="name"
+          placeholder="Your name"
+          required
+          autocomplete="off"
+        />
         <div class="input-error" id="error-name">
           <p>Enter your name</p>
         </div>
 
-        <textarea id="message" placeholder="Your message" required autocomplete="off"></textarea>
+        <textarea
+          id="message"
+          placeholder="Your message"
+          required
+          autocomplete="off"
+        ></textarea>
         <div class="input-error" id="error-message">
           <p>Enter a message</p>
         </div>

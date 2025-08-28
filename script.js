@@ -48,7 +48,7 @@ document.getElementById("sendBtn").addEventListener("click", function () {
 
 document.addEventListener("DOMContentLoaded", () => {
   const larguraMaxMobile = 768;
-  const atual = window.location.pathname.split("/").pop(); // pega o nome do arquivo atual
+  const atual = window.location.pathname.split("/").pop(); 
 
   if (window.innerWidth > larguraMaxMobile && atual !== "working.html") {
     window.location.href = "./working.html";

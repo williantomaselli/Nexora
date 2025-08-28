@@ -19,6 +19,34 @@
   src: url(./Font/Exo_2/Exo2-VariableFont_wght.ttf);
 }
 
+.link-point {
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background-color: red;
+  z-index: 100;
+}
+
+.home-link {
+  top: 0px;
+  background-color: transparent !important;
+}
+
+.about-link {
+  top: 450px;
+  background-color: transparent !important;
+}
+
+.services-link {
+  top: 890px;
+  background-color: transparent !important;
+}
+
+.contact-link {
+  top: 1500px;
+  background-color: transparent !important;
+}
+
 body,
 html {
   scroll-behavior: smooth;
@@ -147,7 +175,7 @@ section {
   flex-direction: column;
   margin-top: 100px;
   margin-bottom: 30vh;
-  
+
   width: 80%;
   height: 40vh;
 }
@@ -516,4 +544,3 @@ footer {
   font-family: MontserratAltLight;
   color: #8384b1;
 }
-

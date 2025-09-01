@@ -35,7 +35,7 @@ document.getElementById("sendBtn").addEventListener("click", function () {
 
   if (hasError) return;
 
-  let phoneNumber = "554791145847";
+  let phoneNumber = "554797708815";
   // Mensagem
   let whatsappMessage = `Olá, eu sou ${name}, vim pelo site e gostaria de falar: ${message}`;
 
